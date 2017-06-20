@@ -1,0 +1,3 @@
+<!--logs.wxml-->
+<map id="map" longitude="{{longitude}} " latitude="{{latitude}} " scale="14"   show-location style="width: 100%; height: 300px;"></map>
+<!--<button type="primary" bindtap="mymapnow">定位</button>-->

@@ -1,0 +1,28 @@
+<view class="job">
+<scroll-view>
+<view class="logo"> <image class="logoimg" src="../../image/pin_01.png" mode="scaleToFill"></image></view>
+<block wx:for="{{jobdata}}">
+<view class="content"> 
+    <view class="top">
+    <image class="topleft" src="../../image/pin_04.png"></image>
+    <text class="topright">全部职位</text>
+    </view>
+    <view class = "mid">
+    <image src="../../image/pin_07.png" class="midleft"></image>
+     <text class="midright">{{item.content}}</text>
+    </view>
+    <view class="botm">
+    <image src="{{item.uidimg}}" class="botleft"></image>
+    <view class="botright">
+    <text class="botname">{{item.nename}}</text>
+    <view class="botnews"> 
+    <text class="botaddress">{{item.address}}</text>
+    <text class="bottime">{{item.time}}</text>
+     </view>
+    </view>
+    </view>
+     <text class="ljyp" data-index="{{index}}" bindtap="getindex">立即应聘</text>
+</view>
+</block>
+</scroll-view>
+</view>

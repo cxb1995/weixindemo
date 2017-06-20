@@ -1,0 +1,3 @@
+<view class="datu">
+    <image src="{{url}}" mode="widthFix"></image>
+</view>

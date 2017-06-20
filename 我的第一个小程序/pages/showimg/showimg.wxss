@@ -1,0 +1,2 @@
+.datu{display: flex;align-items: center;justify-content: center;height: 100%}
+.datu image{width: 100%;}

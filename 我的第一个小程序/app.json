@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+     "pages/job/job",
+    "pages/showimg/showimg"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f2f2f2",
+    "navigationBarTitleText": "手艺大赛",
+    "navigationBarTextStyle":"black"
+  }
+}

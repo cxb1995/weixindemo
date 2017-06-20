@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<scroll-view>
+<image src="../../image/top.jpg"  style="width:100%;" mode="widthFix" bindtap="linknews"></image>
+<view style="padding:30rpx;">
+<text style="display:block;line-height:50rpx;">1.参赛作品必须保证为原创，且要求为染发作品;</text>
+<text style="display:block;line-height:50rpx;">2.参赛作品需清晰美观无多余水印;</text>
+<text style="display:block;line-height:50rpx;">3.参赛作品上传时须同时勾选标签#晒晒你的染发手艺#.</text>
+</view>
+<image src="../../image/join.jpg" mode="center" style="width:180px;height:40px;"></image>
+<view style="padding:30rpx;">
+<text style="display:block;line-height:50rpx;">1.上传作品到波波网并勾选标签#晒晒你的染发手艺#;</text>
+<text style="display:block;line-height:50rpx;">2.征集时间:2017年3月21日——2017年4月21日.</text>
+</view>
+<image src="../../image/prize.jpg" mode="center" style="width:180px;height:40px;"></image>
+<text style="display:block;line-height:50rpx;padding:30rpx;">活动结束一周后，统计作品在活动期间被收藏的总次数，并按照此数据排名评选出前三名，将分别获得以下奖品：</text>
+<image src="../../image/prize1.jpg"  style="width:100%;" mode="widthFix"></image>
+<view class="top_20" style="background:#f2f2f2;width:100%;padding-left:50rpx;line-height:80rpx;">
+<text class="tt">TOP 20</text>
+</view>
+<view class="list">
+<block wx:for="{{date1}}">
+<view class="li">
+    <view class='tutu'>
+    <image src="{{item.url2}}" class="showimg" mode="aspectFit" bindtap="lookBigPicture"   data-url="{{item.url2}}"></image>
+    </view>
+    <text class="p">#晒晒你的染发手艺#</text>
+    <view class="show">
+             <view>
+    					<!--<text class="addv"></text>-->
+                        <navigator url="../job/job?uid={{item.uid}}">
+    					<image src="{{item.url1}}" class="avatar"/>
+                        </navigator>
+    		</view>
+            <view class="message">
+                <view class="name">{{item.name}}</view>
+                <view class="shhowsize">
+                <text class="address">{{item.city}}</text>
+                <text class="number">{{item.num}}</text>
+                </view>
+            </view>
+    </view>
+    </view>
+</block>
+</view>
+</scroll-view>
+
+<view class="fenge"></view>
+
+<view>
+<image src="{{url}}" mode="scaleToFill" bindtap="addpic" class="uppic"></image>
+</view>
+<view class="fenge"></view>
+<view>
+<button type="primary" bindtap="showmap">地图</button>
+</view>

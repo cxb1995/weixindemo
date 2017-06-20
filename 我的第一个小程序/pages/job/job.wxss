@@ -1,0 +1,16 @@
+.job{min-height: 100%; background: #d3efb2;position: relative;height: 100%;}
+.logoimg{width: 100%}
+.content{background: #fff;margin-right: 20px;margin-left: 20px;border-radius: 10px; padding-bottom: 10px;margin-bottom: 20px;}
+.top{display: flex;border-bottom: 1px solid #dcdcdc;padding-bottom: 10px;}
+.topleft{width: 50px;height:30px; margin-top: 10px;margin-right: 20px}
+.topright{border: 1px solid #00bda5;color:#00bda5;font-size:16px;border-radius: 12px;height: 30px;line-height: 30px;padding: 0 5px;margin-top: 10px;}
+.mid{display: flex;padding-right: 10px;border-bottom: 1px solid #dcdcdc;padding-bottom: 10px;}
+.midleft{height:30px; margin-top: 10px;margin-right: 20px;}
+.midright{display: block;font-size: 16px;color: #535353;margin-top: 10px;}
+.botm{display: flex;}
+.botleft{width: 40px;height: 40px;border-radius: 50%;margin: 10px;}
+.botright{color: gray;margin-top: 10px;font-size: 18px;width: calc(100% - 60px);}
+.botnews{margin-top: 8px;}
+.botaddress{margin-left: 0;float: left;}
+.bottime{float: right;margin-right: 10px;}
+.ljyp{display: block; width: 100px; height: 30px;line-height: 30px;color: #fff;background: #ff9c00;margin: 15px auto 5px;border-radius: 5px;font-size: 20px;text-align: center}

@@ -1,0 +1,17 @@
+/**index.wxss**/
+.tt::before{content: '';border-left: 1.5vw #dc5f67 solid;padding-right: 20rpx;}
+.list{width: calc(100% - 6vw);margin: 0 auto;}
+        .list  .li{display: inline-block;width: 47%;box-sizing: border-box;margin-top:1.5vh;border: 1px solid #f2f2f2;}
+        .list  .li:nth-of-type(2n+1){margin-right: 4vw;}
+        .tutu{width: 100%;overflow: hidden;text-align: center;height: 30vh;}
+        .showimg{width: 100%;}
+        .list .p{margin:10px;color: #333333;font-size: 30rpx}
+        .show{display: flex;font-size: 16px;margin-top: 5px;}
+        .avatar{border-radius: 50%;width: 9vw;height: 9vw;position: relative;z-index: 98;margin-right: 2vw;}
+        .message{width: calc(100% - 9vw - 10px);}
+        .name{width: 80px;font-size: 15px;height: 3vh;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+        .shhowsize{font-size: 15px;margin-top: 5px;overflow: auto;}
+        .number{float: right;margin-right: 10px;}
+        .zhezhao{display: none;position: absolute;background-color: #333333;opacity: 0.5}
+        .fenge{height: 30rpx;background-color: red;margin: 30rpx 0;}
+        .uppic{width: 160rpx;height: 160rpx;border: 1px solid red;}
