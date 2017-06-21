@@ -1,0 +1,77 @@
+Page({
+    data:{
+        bannerurl:'../../images/worktop.png',
+         date:[
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322074312575.jpg","num":"58","city":"北京","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322073832180.jpg","num":"35","city":"北京","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322073729234.jpg","num":"28","city":"北京","type":"1"},
+	{"name":"木良老师V信124077994","url1":"http://img.hairbobo.com/uploadimg/16/11/21/161121225710153.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/21/p170321191740105.jpg","num":"26","city":"广州","type":"1"},
+	{"name":"秀琇","url1":"http://img.hairbobo.com/uploadimg/16/09/22/160922150455579.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322170155860.jpg","num":"23","city":"大连","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322073910166.jpg","num":"22","city":"北京","type":"1"},
+	{"name":"user814500","url1":"http://img.hairbobo.com/images/register_hairdresser/nan_fxs.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322110647298.jpg","num":"22","city":"长春","type":"0"},
+	
+	{"name":"沙也","url1":"http://img.hairbobo.com/uploadimg/16/07/08/160708185958498.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322162522500.jpg","num":"18","city":"温州","type":"1"},
+	{"name":"宋灿","url1":"http://img.hairbobo.com/uploadimg/15/12/02/151202155628638.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322150743607.jpg","num":"18","city":"宁波","type":"1"},
+	{"name":"高木_13062699585","url1":"http://img.hairbobo.com/uploadimg/16/01/13/160113012704773.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/21/p170321235154611.jpg","num":"17","city":"昆明","type":"1"},	
+	{"name":"安妮_老师","url1":"http://img.hairbobo.com/uploadimg/16/08/27/160827203248787.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322232729366.jpg","num":"17","city":"郴州","type":"0"},
+	{"name":"风格发型设计师阿康","url1":"http://img.hairbobo.com/uploadimg/16/03/08/160308113303053.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/23/p170323095018111.jpg","num":"16","city":"石家庄","type":"1"},
+	{"name":"造型师_周舟","url1":"http://img.hairbobo.com/uploadimg/15/10/31/151031112507459.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/23/p170323113537608.jpg","num":"16","city":"湖州","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322074117478.jpg","num":"16","city":"北京","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322073319463.jpg","num":"15","city":"北京","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322073639002.jpg","num":"15","city":"北京","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322074029383.jpg","num":"15","city":"北京","type":"1"},
+		{"name":"唐伟","url1":"http://img.hairbobo.com/uploadimg/15/12/29/151229152246587.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322102900660.jpg","num":"15","city":"遂宁","type":"1"},
+	{"name":"MJ明星沙龙","url1":"http://img.hairbobo.com/uploadimg/16/10/06/161006210736680.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/23/p170323132800615.jpg","num":"15","city":"宁波","type":"1"},
+	{"name":"2046","url1":"http://img.hairbobo.com/uploadimg/16/08/14/160814225310555.jpg","url2":"http://img.hairbobo.com/uploadimg/17/03/22/p170322073022902.jpg","num":"14","city":"北京","type":"1"}
+	],
+	
+ navItems:[
+      {
+        name:'堂食',
+        url:'dishes',
+		imgurl:'../../images/videoS.png'
+      },
+      {
+        name:'外卖',
+        url:'take',
+        isSplot:true,
+		imgurl:'../../images/videoS.png'
+      },
+      {
+        name:'外带',
+        url:'out',
+		imgurl:'../../images/videoS.png'
+      },
+      {
+        name:'订单',
+        url:'bill',
+		imgurl:'../../images/videoS.png'
+      },
+      {
+        name:'帐单',
+        url:'bill',
+        isSplot:true,
+		imgurl:'../../images/videoS.png'
+      },
+      {
+        name:'报表',
+        url:'bill',
+		imgurl:'../../images/videoS.png'
+      }
+    ],
+    typeblock:"none"
+    },
+
+    showzhezhao:function(){
+            var _this = this;           
+            _this.setData({
+                typeblock:"block"
+            })
+    },
+    hidezhezhao:function(){
+         var _this = this;
+            _this.setData({
+                typeblock:"none"
+            })
+    }
+})

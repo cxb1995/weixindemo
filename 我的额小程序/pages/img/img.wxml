@@ -1,0 +1,57 @@
+<view class="wxtop">
+<image src="{{bannerurl}}" mode="widthFix" class="bannerurl"></image>
+</view>
+<input  placeholder="请输入查找的内容" class="findnr" placeholder-style="color:#919191;" confirm-type="search"/>
+<view class="jiange"></view>
+
+<!--<button class="findfaxing">找发型师</button>
+<button class="findwork">找工作</button>-->
+
+
+
+<view class="nav-block wrap">
+    <block wx:for="{{navItems}}"> 
+      <view class="wrap-item {{item.isSplot ? 'exp' : ''}}" bindtap="showzhezhao">  
+        <image src="{{item.imgurl}}" class="wrap-item-img"></image>
+        <text class="wrap-item-show">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+
+<view class="list">
+<block wx:for="{{date}}">
+<view class="li">
+    <view class='tutu'>
+    <image src="{{item.url2}}" class="showimg" mode="aspectFit" bindtap="lookBigPicture"   data-url="{{item.url2}}"></image>
+    </view>
+    <text class="p">#晒晒你的染发手艺#</text>
+    <view class="show">
+             <view>
+    					<!--<text class="addv"></text>-->
+    					<image src="{{item.url1}}" class="avatar"/>
+    		</view>
+            <view class="message">
+                <view class="name">{{item.name}}</view>
+                <view class="shhowsize">
+                <text class="address">{{item.city}}</text>
+                <text class="number">{{item.num}}</text>
+                </view>
+            </view>
+    </view>
+    </view>
+</block>
+</view>
+
+<view class="father" style = "display:{{typeblock}}"> 
+  <view class = "zhezhao" bindtap="hidezhezhao"></view>
+  <view class="son">
+    <view class="nav-block wrap">
+    <block wx:for="{{navItems}}"> 
+      <view class="wrap-item {{item.isSplot ? 'exp' : ''}}">  
+        <image src="{{item.imgurl}}" class="wrap-item-img"></image>
+        <text class="wrap-item-show">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+  </view>
+</view>

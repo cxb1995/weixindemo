@@ -1,0 +1,42 @@
+.wxtop{position: relative;width: 100%;height: 500rpx;overflow: hidden;}
+.bannerurl{width: 100%;position: relative;z-index: 95;}
+.findnr{position: absolute;z-index: 99;background-color: white;width: 90%;height: 100rpx;line-height: 100rpx;border: 1px solid black;margin-left: 5%;top: 450rpx;}
+.jiange{height: 100rpx;}
+.findfaxing{width: 40%;display: inline-block;height: 100rpx;line-height: 100rpx;text-align: center;margin-left: 7.5%;background-color: #f2f2f2;}
+.findwork{width: 40%;display: inline-block;height: 100rpx;line-height: 100rpx;text-align: center;margin-left: 5%;background-color: #dddddd;}
+.list{width: calc(100% - 6vw);margin: 0 auto;}
+        .list  .li{display: inline-block;width: 47%;box-sizing: border-box;margin-top:1.5vh;border: 1px solid #f2f2f2;}
+        .list  .li:nth-of-type(2n+1){margin-right: 4vw;}
+        .tutu{width: 100%;overflow: hidden;text-align: center;height: 400rpx;}
+        .showimg{width: 100%;}
+        .list .p{margin:10px;color: #333333;font-size: 30rpx}
+        .show{display: flex;font-size: 16px;margin-top: 5px;}
+        .avatar{border-radius: 50%;width: 9vw;height: 9vw;position: relative;z-index: 98;margin-right: 2vw;}
+        .message{width: calc(100% - 9vw - 10px);}
+        .name{width: 80px;font-size: 15px;height: 3vh;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+        .shhowsize{font-size: 15px;margin-top: 5px;overflow: auto;}
+        .number{float: right;margin-right: 10px;}
+
+        .wrap{
+	display: inline-block;
+	/*margin-top: 15rpx;*/
+        width: 100%;
+        margin-bottom: 30rpx;
+        }
+.wrap-item{
+	display: inline-block;
+	width: 240rpx;
+	height: 120rpx;
+	/*border-bottom: 1px solid #ddd;*/
+	background-color: #fff;
+	text-align: center;
+        /*box-sizing: border-box;*/
+        margin-bottom: 10rpx;
+      
+}
+.wrap-item-img{width: 60rpx;height: 60rpx;display:block;margin:10rpx auto;}
+.wrap-item-show{font-size: 30rpx;}
+
+.father{width: 100%;height: 100%;position: absolute;z-index: 1000;top: 0;}
+.zhezhao{background-color: #333333;opacity: 0.5;width: 100%;height: 100%}
+.son{width: 100%;min-height: 200rpx;position: absolute;top: 320rpx;}

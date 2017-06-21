@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/img/img",
+    "pages/myword/myword"
+  ],
+  "tabBar": {
+     "color": "#a9b7b7",
+    "selectedColor": "#eb4f38",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+      "pagePath": "pages/img/img",
+      "text": "素材",
+      "iconPath": "images/imageN.png",
+      "selectedIconPath": "images/imageS.png"
+    },
+      {
+      "pagePath": "pages/myword/myword",
+      "text": "我的",
+      "iconPath": "images/wordN.png",
+      "selectedIconPath": "images/wordS.png"
+    }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "模仿花瓣",
+    "navigationBarTextStyle":"black"
+  }
+
+}
