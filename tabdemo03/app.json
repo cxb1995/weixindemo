@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#787878",
+    "navigationBarTitleText": "我的顶部选项卡",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,22 @@
+/**index.wxss**/
+/**index.wxss**/  
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777777;  
+    text-align: center;  
+    line-height: 80rpx;
+    position: fixed;
+    z-index: 10000;
+    background-color: white;}  
+.swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 20%;  
+    color: #777777;  
+}  
+.on{ color: #da7c0c;  
+    border-bottom: 5rpx solid #da7c0c;}  
+  
+.swiper-box{ display: block; width: 100%;padding-top: 50px;}  
+.swiper-box view{  
+    text-align: center;  
+}
