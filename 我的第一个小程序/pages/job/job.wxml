@@ -12,7 +12,8 @@
      <text class="midright">{{item.about}}</text>
     </view>
     <view class="botm">
-    <image src="http://img.hairbobo.com{{item.logo}}" class="botleft"></image>
+    <navigator url="http://my.bobo.so/hair/index.html#detailhair/{{item.uid}}">
+    <image src="http://img.hairbobo.com{{item.logo}}" class="botleft"></image></navigator>
     <view class="botright">
     <text class="botname">{{item.nickname}}</text>
     <view class="botnews"> 
