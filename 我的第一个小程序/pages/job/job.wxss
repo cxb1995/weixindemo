@@ -5,8 +5,8 @@
 .topleft{width: 50px;height:30px; margin-top: 10px;margin-right: 20px}
 .topright{border: 1px solid #00bda5;color:#00bda5;font-size:16px;border-radius: 12px;height: 30px;line-height: 30px;padding: 0 5px;margin-top: 10px;}
 .mid{display: flex;padding-right: 10px;border-bottom: 1px solid #dcdcdc;padding-bottom: 10px;}
-.midleft{height:30px; margin-top: 10px;margin-right: 20px;}
-.midright{display: block;font-size: 16px;color: #535353;margin-top: 10px;}
+.midleft{height:30px; margin-top: 10px;margin-right: 20px;width:100px;}
+.midright{display: block;font-size: 16px;color: #535353;margin-top: 13px;width:500px;}
 .botm{display: flex;}
 .botleft{width: 40px;height: 40px;border-radius: 50%;margin: 10px;}
 .botright{color: gray;margin-top: 10px;font-size: 18px;width: calc(100% - 60px);}

@@ -1,7 +1,7 @@
 <view class="job">
 <scroll-view>
 <view class="logo"> <image class="logoimg" src="../../image/pin_01.png" mode="scaleToFill"></image></view>
-<block wx:for="{{jobdata}}">
+<block wx:for="{{info1}}">
 <view class="content"> 
     <view class="top">
     <image class="topleft" src="../../image/pin_04.png"></image>
@@ -9,19 +9,19 @@
     </view>
     <view class = "mid">
     <image src="../../image/pin_07.png" class="midleft"></image>
-     <text class="midright">{{item.content}}</text>
+     <text class="midright">{{item.about}}</text>
     </view>
     <view class="botm">
-    <image src="{{item.uidimg}}" class="botleft"></image>
+    <image src="http://img.hairbobo.com{{item.logo}}" class="botleft"></image>
     <view class="botright">
-    <text class="botname">{{item.nename}}</text>
+    <text class="botname">{{item.nickname}}</text>
     <view class="botnews"> 
-    <text class="botaddress">{{item.address}}</text>
-    <text class="bottime">{{item.time}}</text>
+    <text class="botaddress">{{item.salonuid}}</text>
+    <text class="bottime">{{item.km}}</text>
      </view>
     </view>
     </view>
-     <text class="ljyp" data-index="{{index}}" bindtap="getindex">立即应聘</text>
+     <text class="ljyp" data-index="{{item.cell}}" bindtap="getindex">立即应聘</text>
 </view>
 </block>
 </scroll-view>
