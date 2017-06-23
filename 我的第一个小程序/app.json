@@ -1,8 +1,10 @@
 {
   "pages":[
     "pages/index/index",
+     "pages/map/map",
      "pages/job/job",
     "pages/showimg/showimg"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
