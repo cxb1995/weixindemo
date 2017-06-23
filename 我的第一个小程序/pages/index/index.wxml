@@ -27,7 +27,7 @@
     <view class="show">
              <view>
     					<!--<text class="addv"></text>-->
-                        <navigator url="../job/job?uid={{item.uid}}&haha=kk">
+                        <navigator url="../job/job?uid={{item.uid}}">
     					<image src="{{item.url1}}" class="avatar"/>
                         </navigator>
     		</view>

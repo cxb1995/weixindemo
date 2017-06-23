@@ -3,7 +3,6 @@
     "pages/index/index",
      "pages/map/map",
      "pages/job/job",
-     "pages/person/person",
     "pages/showimg/showimg"
     
   ],
