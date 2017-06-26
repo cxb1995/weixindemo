@@ -1,5 +1,6 @@
 {
   "pages":[
+     "pages/person/person",
     "pages/index/index",
      "pages/map/map",
      "pages/job/job",

@@ -1,0 +1,5 @@
+<scroll-view scroll-y>
+<view class="header1">
+<view class="shoaw"></view>
+</view>
+</scroll-view>
