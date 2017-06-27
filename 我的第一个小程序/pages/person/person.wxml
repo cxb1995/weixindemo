@@ -1,5 +1,73 @@
 <scroll-view scroll-y>
+<view class="main">
 <view class="header1">
 <view class="shoaw"></view>
+<view class="pic">
+    <view class="lf">
+    <view class="tx">
+    <image src="http://img.hairbobo.com/uploadimg/17/06/14/170614114806930.jpg" class="tximg" mode="widthFix"></image>
+    <view class="sex"></view>
+    </view>
+    </view>
+    <view class="rg">
+    <text class="aname">大北</text>
+    <view class="address">
+    <icon type="success" color="red" size="15"></icon>
+    北京
+    </view>
+    </view>
+    </view>
 </view>
+<view class="yy">
+    <view class="yyy">
+    <text class="text1">196</text>
+    <text class="text2">精选发型</text>
+    </view>
+     <view class="yyy">
+    <text class="text1">380</text>
+    <text class="text2">剪发价格</text>
+    </view>
+     <view class="yyy">
+    <text class="text1">1</text>
+    <text class="text2">预约数</text>
+    </view>
+</view>
+
+<view class="slxx">
+    <view class="halo">
+    <text class="slxx_1">所在沙龙</text>
+    <text class="slxx_2">乔司国际</text>
+    </view>
+    <view class="halo">
+    <navigator url="">
+    <text class="slxx_1">地址</text>
+    <text class="slxx_2">将达公路36号</text>
+    </navigator>
+    </view>
+    <view class="halo">
+    <navigator url="">
+    <text class="slxx_1">徽章</text>
+    <text class="slxx_2"></text>
+     </navigator>
+    </view> 
+</view>
+
+<view class="jxfx">
+    <view class="title">发型作品</view>
+    <view class="showimg">
+    <block>
+    <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+   <view class="image"><image src="../../image/timg.jpg" mode="widthFix" class="img"></image></view>
+    </block>
+    </view>
+</view>
+
+</view>
+
 </scroll-view>
