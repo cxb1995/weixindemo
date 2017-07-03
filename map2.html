@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=750, target-densitydpi=device-dpi, user-scalable=no">
+		<style type="text/css">
+			html,body{height: 100%;}
+			#allmap {margin:0;padding:0;width: 100%;margin: 0;font-family: "微软雅黑";height: 700px;position: relative;z-index: 98;overflow: hidden;}
+			.mapshowimg{position: absolute;top:570px ;z-index: 1000;color: white;height: 140px;background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ffffff), to(#000000));opacity: 0.3;width: 100%;overflow: hidden;}
+			.map_1{width: 600px;margin: auto;background-color: white;color: #000000;opacity: 1;height: 100px;position: absolute;top:570px;line-height: 100px;z-index: 1200;margin-left: calc((100% - 600px) / 2);border-radius: 10px;overflow: hidden;}
+			.mapadress{display: inline-block;background-color: black;font-size: 28px;color: white;width: 120px;height: 100px;text-align: center;margin-left: 18px;margin-right: 32px;}
+			.map_2{color: #404040;font-size: 28px;margin-right: 12px;}
+			.map_3{font-size: 34px;font-weight: bold;color: #404040;}
+			.map_4{font-size: 28px;}
+			.map_5{margin-left: 30px;font-size: 28px;margin-right: 30px;}
+			.map_6{font-size: 32px;color: #ed4234;font-weight: bold;}
+			.maplist{margin: 0;padding: 0;}
+			.maplist li{margin: 0;padding: 0;height: 160px;border-bottom: 1px solid #d8d8d8;list-style: none;}
+			.maplist li .maplist_1{margin: 0;padding: 0;display: inline-block;margin: 30px;vertical-align: top;position: relative;z-index: 1000;}
+			.maplist li .maplist_1 .bagdeV{position: absolute;bottom: -2px;z-index: 1001;width: 34px;height: 34px;right: -2px;}
+			.maplist li .maplist_1 .huangguan{position: absolute;width: 34px;height: 34px;top:8px;left: -11px;}
+			.maplist li .maplist_1 .maptuoxiang{margin: 0;padding: 0;width: 90px;height: 90px;border-radius: 50%;margin-top: 15px;z-index: 999;}
+			.maplist li .maplist_2{margin: 0;padding: 0;display: inline-block;vertical-align: top;margin-top: 30px;width:calc(100% - 160px);}
+			.maplist li .maplist_2 h4{margin: 0;padding: 0;color: #404040;font-size: 28px;}
+			.maplist li .maplist_2 .maplist_2_1{margin: 0;padding: 0;color: #7c7c7c;margin-top: 10px;overflow: auto;font-size: 24px;}
+			.maplist li .maplist_2 .maplist_2_1 .map_ads_1{margin: 0;padding: 0;float: left;width: 350px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+			.maplist li .maplist_2 .maplist_2_1 .map_ads_2{margin: 0;padding: 0;float: right;margin-right: 30px;}
+		</style>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wqBXfIN3HkpM1AHKWujjCdsi"></script>
+		<title>精英造型师</title>
+	</head>
+
+	<body>
+		<div id="allmap" ></div>
+		<div class="mapshowimg"></div>
+			<div class="map_1"> 
+				<span class="mapadress" style="width: 120px;">黑龙江</span>
+				<span class="map_2" style="margin-left: 30px;margin-right: 12px;">您周边的造型师:</span><span class="map_3" style="font-size: 34px;">300</span><span style="font-size: 28px;margin-left: 4px;">名</span>
+			</div>
+		<ul class="maplist">
+			<li style="height: 190px;">
+				<section class="maplist_1" style="margin-top: 40px;">
+					<img class="bagdeV" src="img/bagdeV.png"/>
+					<img class="huangguan" src="img/huangguan.png"/>
+					<img class="maptuoxiang" src="img/p1.jpg" />
+				</section>
+				<section class="maplist_2">
+					<h4 >王舍国际</h4>
+					<div class="maplist_2_1" >
+						<p class="map_ads_1" >S 美发沙龙WANG美发沙龙WANG美发沙龙WANG美发沙龙WANG美发沙龙WANG美发沙龙WANG美发沙龙WANG美发沙龙WANG</p>
+						<p class="map_ads_2" >500米内</p>
+					</div>
+					<div class="maplist_2_1" >
+						<p class="map_ads_1" style="width: 250px;">剪发价格:<span>120</span></p>
+						<p class="map_ads_2 hangjia" style="border: 1px solid #3888bc;border-radius: 12px;padding: 5px;color: #3888bc;display: none;">波波网行家</p>
+						<p class="map_ads_2 jingying" style="border: 1px solid #df9e47;border-radius: 12px;padding: 5px;color: #df9e47;">精英造型师</p>
+					</div>
+				</section>
+			</li>
+			<li style="height: 190px;">
+				<section class="maplist_1" style="margin-top: 40px;">
+					<img class="bagdeV" src="img/bagdeV.png"/>
+					<img class="huangguan" src="img/huangguan.png"/>
+					<img class="maptuoxiang" src="img/p1.jpg" />
+				</section>
+				<section class="maplist_2">
+					<h4 >王舍国际</h4>
+					<div class="maplist_2_1" >
+						<p class="map_ads_1" >S 美发沙龙WANG</p>
+						<p class="map_ads_2" >500米内</p>
+					</div>
+					<div class="maplist_2_1" >
+						<p class="map_ads_1" style="width: 250px;">剪发价格:<span>120</span></p>
+						<p class="map_ads_2" style="border: 1px solid #3888bc;border-radius: 12px;padding: 5px;color: #3888bc;">波波网行家</p>
+						<!--<p class="map_ads_2" style="border: 1px solid #df9e47;border-radius: 12px;padding: 5px;color: #df9e47;">精英造型师</p>-->
+					</div>
+				</section>
+			</li>
+		</ul>
+	</body>
+
+</html>
+<script type="text/javascript">
+	var data = {
+		loca: [{loca1:[121.5542, 31.2126],img:"img/choose.png",linkurl:"www.baidu.com"},
+			   {loca1:[121.5557, 31.2154],img:"img/toutuo.jpg",linkurl:"www.vip.com"},
+			   {loca1:[121.5553, 31.2216],img:"img/jinying.png",linkurl:"mp.weixin.qq.com/cgi-bin/loginpage?t=wxm2-login&lang=zh_CN.com"}]
+	}
+	navigator.geolocation.getCurrentPosition( // 该函数有如下三个参数
+		function(pos) { // 如果成果则执行该回调函数
+			var a = pos.coords.latitude
+			var b = pos.coords.longitude
+			console.log(a,b)
+			var map = new BMap.Map("allmap");
+			var point = new BMap.Point(b, a);
+			var myIcon1 = new BMap.Icon("img/myself.png", new BMap.Size(60, 70));
+			var marker = new BMap.Marker(point,{icon: myIcon1}); // 创建标注
+			map.addOverlay(marker); // 将标注添加到地图中
+			map.centerAndZoom(point, 15);
+			for(var i = 0; i < data.loca.length; i++) {
+				var aloa = data.loca[i];
+				var pt = new BMap.Point(aloa.loca1[0], aloa.loca1[1]);
+				var myIcon = new BMap.Icon(aloa.img, new BMap.Size(60, 70));
+				var marker2 = new BMap.Marker(pt,{icon: myIcon}); // 创建标注
+				map.addOverlay(marker2); // 将标注添加到地图中
+					(function(i){
+            		marker2.onclick = function(){
+                		location.href = "http://" + data.loca[i].linkurl
+            			}
+        			})(i)
+				}
+		},
+		function(err) { // 如果失败则执行该回调函数
+				alert(err.message);},
+			{ // 附带参数
+				enableHighAccuracy: true, // 提高精度(耗费资源)
+				timeout: 5000, // 超过timeout则调用失败的回调函数
+				maximumAge: 1000 // 获取到的地理信息的有效期，超过有效期则重新获取一次位置信息
+			}
+	)
+</script>
