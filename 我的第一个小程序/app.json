@@ -4,7 +4,8 @@
     "pages/person/person",
      "pages/map/map",
      "pages/job/job",
-    "pages/showimg/showimg"
+     "pages/pullimg/pullimg",
+     "pages/showimg/showimg"
     
   ],
   "window":{
