@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <scroll-view>
 <navigator url="../job/job">
-<image src="../../image/top.jpg"  style="width:100%;" mode="widthFix" bindtap="linknews"></image></navigator>>
+<image src="../../image/top.jpg"  style="width:100%;" mode="widthFix" bindtap="linknews"></image></navigator>
 <view style="padding:30rpx;">
 <text style="display:block;line-height:50rpx;">1.参赛作品必须保证为原创，且要求为染发作品;</text>
 <text style="display:block;line-height:50rpx;">2.参赛作品需清晰美观无多余水印;</text>
