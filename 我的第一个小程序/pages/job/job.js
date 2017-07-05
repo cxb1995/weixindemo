@@ -515,9 +515,15 @@ Page({
   onShareAppMessage: function() {
     // 用户点击右上角分享
     return {
-      title: 'title', // 分享标题
-      desc: 'desc', // 分享描述
-      path: 'path' // 分享路径
+      title: '找工作', // 分享标题
+      desc: '想找一份满意的工作么？那还等什么，快下载波波网APP吧！', // 分享描述
+      path: 'http://www.baidu,com', // 分享路径
+      success:function(){
+          console.log(1)
+      },
+      fail:function(){
+          console.log(2)
+      }
     }
   },
   getindex:function(e){

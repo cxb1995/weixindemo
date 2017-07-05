@@ -71,6 +71,9 @@
 </view>
     <view class="comment">
      <view class="title">客人点评</view>
+     <view class="detailCom">
+     
+     </view>
     </view>
 </view>
 
